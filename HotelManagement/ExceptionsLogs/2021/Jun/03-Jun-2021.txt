@@ -1,0 +1,61 @@
+-------------------START-------------6/3/2021 6:38:56 PM
+Source : Pages/Order/EducatorRequest.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'AdditionalRemarks'.
+-------------------END-------------6/3/2021 6:38:56 PM
+-------------------START-------------6/3/2021 6:44:21 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : Column 'PatientAddressId' does not belong to table .
+-------------------END-------------6/3/2021 6:44:21 PM
+-------------------START-------------6/3/2021 6:47:36 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : 'ddlEducatorService' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------6/3/2021 6:47:36 PM
+-------------------START-------------6/3/2021 6:48:42 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : 'ddlEducatorService' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------6/3/2021 6:48:42 PM
+-------------------START-------------6/3/2021 6:49:49 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : 'ddlEducatorService' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------6/3/2021 6:49:49 PM
+-------------------START-------------6/3/2021 6:51:28 PM
+Source : /Pages/Setup/User.aspx - btnExport_Click
+Error : Thread was being aborted.
+-------------------END-------------6/3/2021 6:51:28 PM
+-------------------START-------------6/3/2021 6:52:16 PM
+Source : Email_Templates.cs - EducatorEmails()
+Error : System.Exception: Error occured during usp_Educator_Request : The current TransactionScope is already complete. ---> System.InvalidOperationException: The current TransactionScope is already complete.
+   at System.Transactions.Transaction.get_Current()
+   at System.Data.ProviderBase.DbConnectionPool.GetFromTransactedPool(Transaction& transaction)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HotelManagement_DAL.DAL.OpenConnection(Boolean SqlTransactionUse) in D:\Office Work\SanofiCRMGit_BranchA\Sanofi_DAL\DAL.cs:line 27
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit_BranchA\Sanofi_DAL\DAL_OrderMaster.cs:line 232
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit_BranchA\Sanofi_DAL\DAL_OrderMaster.cs:line 243
+   at HotelManagement_BAL.BAL_OrderMaster.usp_Get_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit_BranchA\HotelManagement_BAL\BAL_OrderMaster.cs:line 56
+   at Email_Templates.EducatorEmails(Int32 OrderMasterId, String EducatorRequestIds) in d:\Office Work\SanofiCRMGit_BranchA\Sanofi\App_Code\Email_Templates.cs:line 181
+-------------------END-------------6/3/2021 6:52:16 PM
+-------------------START-------------6/3/2021 7:43:07 PM
+Source : /Pages/Setup/User.aspx - btnExport_Click
+Error : Thread was being aborted.
+-------------------END-------------6/3/2021 7:43:07 PM
+-------------------START-------------6/3/2021 7:51:17 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : 'ddlEducatorService' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------6/3/2021 7:51:17 PM
+-------------------START-------------6/3/2021 7:53:25 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : 'ddlEducatorService' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------6/3/2021 7:53:25 PM

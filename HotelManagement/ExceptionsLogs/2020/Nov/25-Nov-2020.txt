@@ -1,0 +1,4 @@
+-------------------START-------------11/25/2020 8:32:26 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ModifiedBy'.
+-------------------END-------------11/25/2020 8:32:26 PM

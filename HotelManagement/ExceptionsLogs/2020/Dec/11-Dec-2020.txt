@@ -1,0 +1,359 @@
+-------------------START-------------12/11/2020 12:44:34 PM
+Source : /Pages/Setup/OrderBooking.aspx - PageLoadForEdit
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'IsAllowStarterKit'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.pages_order_orderbooking_aspx.__DataBinding__control132(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx:line 351
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Pages_Order_OrderBooking.BindOrderDetail() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2004
+   at Pages_Order_OrderBooking.PageLoadForEdit() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 220
+-------------------END-------------12/11/2020 12:44:34 PM
+-------------------START-------------12/11/2020 1:11:28 PM
+Source : /Pages/Setup/ProductDetail.aspx - lbEdit_Click
+Error : 'ddlProductDetailColour' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 1:11:28 PM
+-------------------START-------------12/11/2020 3:33:14 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlProductColours' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 3:33:14 PM
+-------------------START-------------12/11/2020 3:33:17 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlProductColours' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 3:33:17 PM
+-------------------START-------------12/11/2020 3:34:50 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlProductColours' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 3:34:50 PM
+-------------------START-------------12/11/2020 3:40:49 PM
+Source : /Pages/Setup/ProductDetail.aspx - lbEdit_Click
+Error : 'ddlProductDetailColour' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 3:40:49 PM
+-------------------START-------------12/11/2020 3:50:50 PM
+Source : /Pages/Setup/ProductDetail.aspx - lbEdit_Click
+Error : 'ddlProductDetailColour' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 3:50:50 PM
+-------------------START-------------12/11/2020 3:51:34 PM
+Source : /Pages/Setup/ProductDetail.aspx - lbEdit_Click
+Error : 'ddlProductDetailColour' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------12/11/2020 3:51:34 PM
+-------------------START-------------12/11/2020 4:06:41 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:06:41 PM
+-------------------START-------------12/11/2020 4:07:02 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:07:02 PM
+-------------------START-------------12/11/2020 4:07:27 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:07:27 PM
+-------------------START-------------12/11/2020 4:07:49 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:07:49 PM
+-------------------START-------------12/11/2020 4:09:23 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:09:23 PM
+-------------------START-------------12/11/2020 4:12:23 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:12:23 PM
+-------------------START-------------12/11/2020 4:20:49 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Cannot set Column 'IsPrescriptionValidated' to be null. Please use DBNull instead.
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:20:49 PM
+-------------------START-------------12/11/2020 4:22:49 PM
+Source : /Pages/Setup/OrderBooking.aspx - rpt_OrderDetail_ItemDataBound
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Pages_Order_OrderBooking.Set_OrderDetail_From_rptItem() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2073
+-------------------END-------------12/11/2020 4:22:49 PM
+-------------------START-------------12/11/2020 4:25:24 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:24 PM
+-------------------START-------------12/11/2020 4:25:27 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:27 PM
+-------------------START-------------12/11/2020 4:25:28 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:28 PM
+-------------------START-------------12/11/2020 4:25:28 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:28 PM
+-------------------START-------------12/11/2020 4:25:29 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:29 PM
+-------------------START-------------12/11/2020 4:25:30 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:30 PM
+-------------------START-------------12/11/2020 4:25:30 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:30 PM
+-------------------START-------------12/11/2020 4:25:31 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:31 PM
+-------------------START-------------12/11/2020 4:25:31 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:31 PM
+-------------------START-------------12/11/2020 4:25:31 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:25:31 PM
+-------------------START-------------12/11/2020 4:26:43 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:26:43 PM
+-------------------START-------------12/11/2020 4:27:55 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : There is no row at position 0.
+-------------------END-------------12/11/2020 4:27:55 PM
+-------------------START-------------12/11/2020 4:32:19 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Input string was not in a correct format.
+-------------------END-------------12/11/2020 4:32:19 PM
+-------------------START-------------12/11/2020 4:36:12 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: String was not recognized as a valid Boolean.Couldn't store <> in IsNewPrescriptionUpload Column.  Expected type is Boolean. ---> System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Data.Common.BooleanStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1972
+-------------------END-------------12/11/2020 4:36:12 PM
+-------------------START-------------12/11/2020 4:38:42 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: String was not recognized as a valid Boolean.Couldn't store <> in IsNewPrescriptionUpload Column.  Expected type is Boolean. ---> System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Data.Common.BooleanStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1972
+-------------------END-------------12/11/2020 4:38:42 PM
+-------------------START-------------12/11/2020 4:44:51 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: String was not recognized as a valid Boolean.Couldn't store <> in IsNewPrescriptionUpload Column.  Expected type is Boolean. ---> System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Data.Common.BooleanStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1972
+-------------------END-------------12/11/2020 4:44:51 PM
+-------------------START-------------12/11/2020 4:54:00 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: String was not recognized as a valid Boolean.Couldn't store <> in IsNewPrescriptionUpload Column.  Expected type is Boolean. ---> System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Data.Common.BooleanStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1972
+-------------------END-------------12/11/2020 4:54:00 PM
+-------------------START-------------12/11/2020 4:58:19 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: String was not recognized as a valid Boolean.Couldn't store <> in IsNewPrescriptionUpload Column.  Expected type is Boolean. ---> System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.String.System.IConvertible.ToBoolean(IFormatProvider provider)
+   at System.Data.Common.BooleanStorage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1972
+-------------------END-------------12/11/2020 4:58:19 PM
+-------------------START-------------12/11/2020 5:11:45 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.InvalidCastException: Specified cast is not valid.
+   at ASP.pages_order_orderbooking_aspx.__DataBinding__control132(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx:line 351
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Pages_Order_OrderBooking.BindOrderDetail() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2004
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1981
+-------------------END-------------12/11/2020 5:11:45 PM
+-------------------START-------------12/11/2020 5:14:54 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.InvalidCastException: Specified cast is not valid.
+   at ASP.pages_order_orderbooking_aspx.__DataBinding__control132(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx:line 351
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Pages_Order_OrderBooking.BindOrderDetail() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2004
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1981
+-------------------END-------------12/11/2020 5:14:54 PM
+-------------------START-------------12/11/2020 5:15:00 PM
+Source : /Pages/Setup/OrderBooking.aspx - SetPreviousData
+Error : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.RepeaterItemCollection.get_Item(Int32 index)
+   at Pages_Order_OrderBooking.SetPreviousData() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2100
+-------------------END-------------12/11/2020 5:15:00 PM
+-------------------START-------------12/11/2020 5:21:46 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.InvalidCastException: Specified cast is not valid.
+   at ASP.pages_order_orderbooking_aspx.__DataBinding__control132(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx:line 351
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Pages_Order_OrderBooking.BindOrderDetail() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2004
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1981
+-------------------END-------------12/11/2020 5:21:46 PM
+-------------------START-------------12/11/2020 5:58:37 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: Input string was not in a correct format.Couldn't store <> in IsPrescriptionValidated Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1979
+-------------------END-------------12/11/2020 5:58:37 PM

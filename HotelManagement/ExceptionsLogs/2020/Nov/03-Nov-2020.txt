@@ -1,0 +1,95 @@
+-------------------START-------------11/3/2020 4:13:52 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:13:52 PM
+-------------------START-------------11/3/2020 4:16:18 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:16:18 PM
+-------------------START-------------11/3/2020 4:52:59 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:52:59 PM
+-------------------START-------------11/3/2020 4:53:04 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:53:04 PM
+-------------------START-------------11/3/2020 4:53:16 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:53:16 PM
+-------------------START-------------11/3/2020 4:54:55 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:54:55 PM
+-------------------START-------------11/3/2020 4:55:27 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/7/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 4:55:27 PM
+-------------------START-------------11/3/2020 5:48:53 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.Exception: Error occured during usp_PatientProgProductDetailMapping_IsExist : Procedure or function 'usp_PatientProgramMapping_IsExist' expects parameter '@IBKAMProductDetailMappingId', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_PatientProgramMapping_IsExist' expects parameter '@IBKAMProductDetailMappingId', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgProductDetailMapping_IsExist(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 353
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgProductDetailMapping_IsExist(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 358
+   at HotelManagement_BAL.BAL_IBKAM.usp_IsExist_PatientProgProductDetailMapping(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 134
+   at Pages_Order_OrderBooking.IsPatientProgramMappingExit(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2931
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1896
+-------------------END-------------11/3/2020 5:48:53 PM
+-------------------START-------------11/3/2020 6:13:42 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Input array is longer than the number of columns in this table.
+-------------------END-------------11/3/2020 6:13:42 PM
+-------------------START-------------11/3/2020 6:15:15 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Input array is longer than the number of columns in this table.
+-------------------END-------------11/3/2020 6:15:15 PM
+-------------------START-------------11/3/2020 6:26:06 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/2/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 6:26:06 PM
+-------------------START-------------11/3/2020 6:29:45 PM
+Source : /Pages/Setup/PatientsProgram.aspx - btn_AddProduct_Click
+Error : Invalid cast from 'DateTime' to 'Int32'.Couldn't store <11/2/2020 12:00:00 AM> in ApprovedQuantity Column.  Expected type is Int32.
+-------------------END-------------11/3/2020 6:29:45 PM
+-------------------START-------------11/3/2020 6:39:40 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.Exception: Error occured during usp_PatientProgProductDetailMapping_IsExist : Procedure or function 'usp_PatientProgramMapping_IsExist' expects parameter '@IBKAMProductDetailMappingId', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_PatientProgramMapping_IsExist' expects parameter '@IBKAMProductDetailMappingId', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgProductDetailMapping_IsExist(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 353
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgProductDetailMapping_IsExist(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 358
+   at HotelManagement_BAL.BAL_IBKAM.usp_IsExist_PatientProgProductDetailMapping(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 134
+   at Pages_Order_OrderBooking.IsPatientProgramMappingExit(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2931
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1896
+-------------------END-------------11/3/2020 6:39:40 PM
+-------------------START-------------11/3/2020 6:42:59 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.Exception: Error occured during usp_PatientProgProductDetailMapping_IsExist : Procedure or function 'usp_PatientProgramMapping_IsExist' expects parameter '@IBKAMProductDetailMappingId', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_PatientProgramMapping_IsExist' expects parameter '@IBKAMProductDetailMappingId', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgProductDetailMapping_IsExist(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 353
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgProductDetailMapping_IsExist(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 358
+   at HotelManagement_BAL.BAL_IBKAM.usp_IsExist_PatientProgProductDetailMapping(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 134
+   at Pages_Order_OrderBooking.IsPatientProgramMappingExit(DateTime DiscountStartDate, DateTime DiscountEndDate, Int32 ProductDetailId, Nullable`1 IBKAMProductDetailMappingId, Int32 PatientId) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2931
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1896
+-------------------END-------------11/3/2020 6:42:59 PM
+-------------------START-------------11/3/2020 6:48:42 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1897
+-------------------END-------------11/3/2020 6:48:42 PM
+-------------------START-------------11/3/2020 7:56:56 PM
+Source : /Pages/Setup/OrderBooking.aspx - PageLoadForEdit
+Error : System.Exception: Error occured during Usp_OrderDetail_By_OrderMasterId_Get : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The network path was not found.) ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The network path was not found.) ---> System.ComponentModel.Win32Exception: The network path was not found
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_OrderDetail.Usp_OrderDetail_By_OrderMasterId_Get(Int32 OrderMasterId, Int32 Canceled_OrderStatusId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_OrderDetail.cs:line 176
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderDetail.Usp_OrderDetail_By_OrderMasterId_Get(Int32 OrderMasterId, Int32 Canceled_OrderStatusId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_OrderDetail.cs:line 181
+   at HotelManagement_BAL.BAL_OrderDetail.usp_Get_OrderDetail_By_OrderMasterId(Int32 OrderMasterId, Int32 Canceled_OrderStatusId) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_OrderDetail.cs:line 31
+   at Pages_Order_OrderBooking.PageLoadForEdit() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 200
+-------------------END-------------11/3/2020 7:56:56 PM

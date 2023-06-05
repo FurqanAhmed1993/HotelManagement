@@ -1,0 +1,13 @@
+Success - 6/3/2021 7:15:57 PM < Educator Request for Patient [63540 - Fahad Iqbal] : fahad.iqbal@sybrid.com >  : 
+Error   - 6/3/2021 7:15:57 PM < Educator Request for Patient [63540 - Fahad Iqbal] : fahad.iqbal@sybrid.com >  : System.IO.IOException: The process cannot access the file 'D:\Office Work\SanofiCRMGit_BranchA\Sanofi\EmailLog\2021\Jun\03-Jun-2021.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at Email.WriteFile(String Type, String error, String EmailsAddress) in d:\Office Work\SanofiCRMGit_BranchA\Sanofi\App_Code\Email.cs:line 147
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit_BranchA\Sanofi\App_Code\Email.cs:line 113
+Success - 6/3/2021 7:38:56 PM < Educator Request for Patient [63540 - Fahad Iqbal] : fahad.iqbal@sybrid.com >  : 
+Success - 6/3/2021 7:42:17 PM < Educator Request for Patient [63540 - Fahad Iqbal] : fahad.iqbal@sybrid.com >  : 

@@ -1,0 +1,63 @@
+Success - 7/20/2020 4:18:23 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Error   - 7/20/2020 4:18:23 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : System.IO.IOException: The process cannot access the file 'D:\Office Work\SanofiCRMGit\Sanofi\EmailLog\2020\Jul\20-Jul-2020.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.CreateText(String path)
+   at Email.WriteFile(String Type, String error, String EmailsAddress) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 139
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 112
+Success - 7/20/2020 4:18:41 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:18:42 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:20:55 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:20:55 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:20:56 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:20:56 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:23:31 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:23:31 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:23:32 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:23:32 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:30:15 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 4:30:16 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Error   - 7/20/2020 4:30:16 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : System.IO.IOException: The process cannot access the file 'D:\Office Work\SanofiCRMGit\Sanofi\EmailLog\2020\Jul\20-Jul-2020.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at Email.WriteFile(String Type, String error, String EmailsAddress) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 146
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 112
+Success - 7/20/2020 4:30:16 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 5:53:16 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 5:53:17 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:00:30 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Error   - 7/20/2020 6:00:30 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : System.IO.IOException: The process cannot access the file 'D:\Office Work\SanofiCRMGit\Sanofi\EmailLog\2020\Jul\20-Jul-2020.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at Email.WriteFile(String Type, String error, String EmailsAddress) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 146
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 112
+Success - 7/20/2020 6:12:15 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:12:15 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:18:27 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:18:27 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:24:20 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:24:20 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:26:41 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:26:42 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:29:46 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:29:46 PM < New Complaint [ 20200720/CI/00070 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:39:12 PM < New Complaint [ 20200720/CI/00071 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:39:12 PM < New Complaint [ 20200720/CI/00071 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:43:11 PM < New Complaint [ 20200720/CI/00072 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:43:11 PM < New Complaint [ 20200720/CI/00072 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:46:27 PM < New Inquiry [ 20200720/CI/00073 ]  : fahad.iqbal@sybrid.com >  : 
+Success - 7/20/2020 6:46:29 PM < New Inquiry [ 20200720/CI/00073 ]  : fahad.iqbal@sybrid.com >  : 

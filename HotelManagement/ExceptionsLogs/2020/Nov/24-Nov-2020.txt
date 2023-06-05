@@ -1,0 +1,100 @@
+-------------------START-------------11/24/2020 12:35:36 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:35:36 PM
+-------------------START-------------11/24/2020 12:38:38 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:38:38 PM
+-------------------START-------------11/24/2020 12:41:40 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:41:40 PM
+-------------------START-------------11/24/2020 12:44:42 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:44:42 PM
+-------------------START-------------11/24/2020 12:47:44 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:47:44 PM
+-------------------START-------------11/24/2020 12:50:45 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:50:45 PM
+-------------------START-------------11/24/2020 12:53:48 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:53:48 PM
+-------------------START-------------11/24/2020 12:56:50 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:56:50 PM
+-------------------START-------------11/24/2020 12:59:52 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 12:59:52 PM
+-------------------START-------------11/24/2020 1:02:54 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:02:54 PM
+-------------------START-------------11/24/2020 1:05:56 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:05:56 PM
+-------------------START-------------11/24/2020 1:08:57 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:08:57 PM
+-------------------START-------------11/24/2020 1:12:00 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:12:00 PM
+-------------------START-------------11/24/2020 1:15:01 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:15:01 PM
+-------------------START-------------11/24/2020 1:18:04 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:18:04 PM
+-------------------START-------------11/24/2020 1:21:06 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:21:06 PM
+-------------------START-------------11/24/2020 1:23:28 PM
+Source : /Pages/Order/Orders.aspx - BindRepeater()
+Error : Error occured during usp_OrderMaster_Get : Column '#OrderMaster.AllowInvoiceNoCorrect' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+-------------------END-------------11/24/2020 1:23:28 PM
+-------------------START-------------11/24/2020 7:53:05 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/24/2020 7:53:05 PM
+-------------------START-------------11/24/2020 7:59:21 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'CreatedBy'.
+-------------------END-------------11/24/2020 7:59:21 PM
+-------------------START-------------11/24/2020 8:20:21 PM
+Source : /Pages/Setup/CreateProduct.aspx - btnAdd_Click
+Error : Error occured during usp_PatientDistributor_Get : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------11/24/2020 8:20:21 PM
+-------------------START-------------11/24/2020 8:20:23 PM
+Source : /Pages/Setup/CreateProduct.aspx - btnAdd_Click
+Error : Error occured during usp_PatientDistributor_Get : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------11/24/2020 8:20:23 PM
+-------------------START-------------11/24/2020 8:20:39 PM
+Source : /Pages/Setup/CreateProduct.aspx - btnAdd_Click
+Error : Error occured during usp_PatientDistributor_Get : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------11/24/2020 8:20:39 PM
+-------------------START-------------11/24/2020 8:21:18 PM
+Source : /Pages/Setup/CreateProduct.aspx - btnAdd_Click
+Error : Error occured during usp_PatientDistributor_Get : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------11/24/2020 8:21:18 PM
+-------------------START-------------11/24/2020 8:28:27 PM
+Source : /Pages/Setup/CreateProduct.aspx - btnAdd_Click
+Error : Error occured during usp_PatientDistributor_Update : Error converting data type nvarchar to int.
+-------------------END-------------11/24/2020 8:28:27 PM
+-------------------START-------------11/24/2020 8:28:59 PM
+Source : /Pages/Setup/CreateProduct.aspx - btnAdd_Click
+Error : Error occured during usp_PatientDistributor_Update : Error converting data type nvarchar to int.
+-------------------END-------------11/24/2020 8:28:59 PM

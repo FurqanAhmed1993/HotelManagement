@@ -1,0 +1,44 @@
+-------------------START-------------12/28/2020 4:01:24 PM
+Source : /Pages/Reports/DistributorWiseOrderReport.aspx - BindRepeater()
+Error : Error occured during usp_RPT_Repeat_Patient_Report : @StartDate is not a parameter for procedure usp_DistributorWiseOrderReport.
+-------------------END-------------12/28/2020 4:01:24 PM
+-------------------START-------------12/28/2020 4:05:48 PM
+Source : /Pages/Reports/DistributorWiseOrderReport.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'S'.
+-------------------END-------------12/28/2020 4:05:48 PM
+-------------------START-------------12/28/2020 4:06:55 PM
+Source : /Pages/Reports/DistributorWiseOrderReport.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'SNo'.
+-------------------END-------------12/28/2020 4:06:55 PM
+-------------------START-------------12/28/2020 4:07:17 PM
+Source : /Pages/Reports/DistributorWiseOrderReport.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'S'.
+-------------------END-------------12/28/2020 4:07:17 PM
+-------------------START-------------12/28/2020 4:08:41 PM
+Source : /Pages/Reports/DistributorWiseOrderReport.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Doctor Id '.
+-------------------END-------------12/28/2020 4:08:41 PM
+-------------------START-------------12/28/2020 4:35:52 PM
+Source : /Pages/Reports/Repeat_Patient_OrderReport.aspx - BindRepeater()
+Error : Error occured during RPT_New_Repeat_Patient_Order_Report : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------12/28/2020 4:35:52 PM
+-------------------START-------------12/28/2020 4:36:34 PM
+Source : /Pages/Reports/Repeat_Patient_OrderReport.aspx - BindRepeater()
+Error : Error occured during RPT_New_Repeat_Patient_Order_Report : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------12/28/2020 4:36:34 PM
+-------------------START-------------12/28/2020 4:37:17 PM
+Source : /Pages/Reports/Repeat_Patient_OrderReport.aspx - BindRepeater()
+Error : Error occured during RPT_New_Repeat_Patient_Order_Report : Failed to convert parameter value from a String to a Int32.
+-------------------END-------------12/28/2020 4:37:17 PM
+-------------------START-------------12/28/2020 4:44:22 PM
+Source : /Pages/Reports/Repeat_Patient_OrderReport.aspx - BindRepeater()
+Error : Error occured during RPT_New_Repeat_Patient_Order_Report : @FromDate is not a parameter for procedure RPT_New_Repeat_Patient_Order_Report.
+-------------------END-------------12/28/2020 4:44:22 PM
+-------------------START-------------12/28/2020 5:15:27 PM
+Source : /Pages/Reports/Repeat_Patient_OrderReport.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'SNo'.
+-------------------END-------------12/28/2020 5:15:27 PM
+-------------------START-------------12/28/2020 5:16:23 PM
+Source : /Pages/Reports/Repeat_Patient_OrderReport.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'SNo'.
+-------------------END-------------12/28/2020 5:16:23 PM

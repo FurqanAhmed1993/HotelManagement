@@ -1,0 +1,8 @@
+-------------------START-------------12/3/2020 6:16:33 PM
+Source : /Pages/Reports/Orders.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'PatientId'.
+-------------------END-------------12/3/2020 6:16:33 PM
+-------------------START-------------12/3/2020 6:21:18 PM
+Source : /Pages/Reports/Orders.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'DoctorName'.
+-------------------END-------------12/3/2020 6:21:18 PM

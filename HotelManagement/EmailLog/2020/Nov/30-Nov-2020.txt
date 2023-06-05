@@ -1,0 +1,110 @@
+Error   - 11/30/2020 1:43:19 PM < New Order [ 20201130/ORD/00474 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00474\APIDRA.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00474\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 1:47:53 PM < New Order [ 20201130/ORD/00475 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00475\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00475\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 1:49:17 PM < Order Canceled [ 20201130/ORD/00475 ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 111
+Error   - 11/30/2020 1:49:49 PM < Order Canceled [ 20201130/ORD/00474 ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 111
+Error   - 11/30/2020 1:51:20 PM < New Order [ 20201130/ORD/00476 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00476\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00476\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 1:52:32 PM < Order Changed [ 20201130/ORD/00476-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00476-Mod\APIDRA.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00476-Mod\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 2:03:46 PM < New Order [ 20201130/ORD/00477 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 2:07:48 PM < Order Changed [ 20201130/ORD/00477-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 2:13:23 PM < Order Changed [ 20201130/ORD/00477-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 2:16:48 PM < Order Changed [ 20201130/ORD/00477-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 2:18:07 PM < Order Changed [ 20201130/ORD/00477-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'.
+File name: 'D:\Office Work\SanofiCRMGit\Sanofi\Attachments\OrderReceipt\2020\Nov\30-Nov-2020\20201130_ORD_00477-Mod\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/30/2020 2:20:51 PM < Order Canceled [ 20201130/ORD/00477-Mod ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 173.194.76.109:587
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 111
+Error   - 11/30/2020 2:22:32 PM < Order Canceled [ 20201130/ORD/00476-Mod ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 173.194.76.109:587
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email.cs:line 111

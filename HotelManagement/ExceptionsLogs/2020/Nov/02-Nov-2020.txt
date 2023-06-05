@@ -1,0 +1,74 @@
+-------------------START-------------11/2/2020 1:13:20 PM
+Source : /Pages/Setup/IBKAM.aspx - btn_AddProduct_Click
+Error : The string was not recognized as a valid DateTime. There is an unknown word starting at index 0.
+-------------------END-------------11/2/2020 1:13:20 PM
+-------------------START-------------11/2/2020 1:17:51 PM
+Source : /Pages/Setup/IBKAM.aspx - btn_AddProduct_Click
+Error : The string was not recognized as a valid DateTime. There is an unknown word starting at index 0.
+-------------------END-------------11/2/2020 1:17:51 PM
+-------------------START-------------11/2/2020 1:47:26 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_IBKAM_Insert : Procedure or function 'usp_IBKAM_Insert' expects parameter '@DoctorId', which was not supplied.
+-------------------END-------------11/2/2020 1:47:26 PM
+-------------------START-------------11/2/2020 1:48:15 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Column 'ApprovedQuantity' does not belong to table .
+-------------------END-------------11/2/2020 1:48:15 PM
+-------------------START-------------11/2/2020 3:11:04 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_IBKAM_Update : Procedure or function 'usp_IBKAM_Update' expects parameter '@DoctorId', which was not supplied.
+-------------------END-------------11/2/2020 3:11:04 PM
+-------------------START-------------11/2/2020 3:12:22 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_IBKAM_Update : Procedure or function 'usp_IBKAM_Update' expects parameter '@DoctorId', which was not supplied.
+-------------------END-------------11/2/2020 3:12:22 PM
+-------------------START-------------11/2/2020 7:52:26 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_IBKAMProductGet : Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 259
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 264
+   at HotelManagement_BAL.BAL_IBKAM.usp_GetIBKAMProduct(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 113
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 261
+-------------------END-------------11/2/2020 7:52:26 PM
+-------------------START-------------11/2/2020 7:53:04 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_IBKAMProductGet : Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 259
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 264
+   at HotelManagement_BAL.BAL_IBKAM.usp_GetIBKAMProduct(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 113
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 261
+-------------------END-------------11/2/2020 7:53:04 PM
+-------------------START-------------11/2/2020 7:54:05 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_IBKAMProductGet : Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 259
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 264
+   at HotelManagement_BAL.BAL_IBKAM.usp_GetIBKAMProduct(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 113
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 261
+-------------------END-------------11/2/2020 7:54:05 PM
+-------------------START-------------11/2/2020 7:58:08 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_IBKAMProductGet : Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 259
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 264
+   at HotelManagement_BAL.BAL_IBKAM.usp_GetIBKAMProduct(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 113
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 261
+-------------------END-------------11/2/2020 7:58:08 PM
+-------------------START-------------11/2/2020 7:58:44 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_IBKAMProductGet : Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied. ---> System.Data.SqlClient.SqlException: Procedure or function 'usp_IBKAMProduct_Get' expects parameter '@IsIBKAM', which was not supplied.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 259
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_IBKAM.usp_IBKAMProductGet(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 264
+   at HotelManagement_BAL.BAL_IBKAM.usp_GetIBKAMProduct(Boolean IsIBKAM) in C:\GitLabProject\SanofiCRM\HotelManagement_BAL\BAL_IBKAM.cs:line 113
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 261
+-------------------END-------------11/2/2020 7:58:44 PM

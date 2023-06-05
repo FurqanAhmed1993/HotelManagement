@@ -1,0 +1,11 @@
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\obj\Debug\HotelManagement_DAL.csproj.AssemblyReference.cache
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\obj\Debug\HotelManagement_DAL.csproj.CoreCompileInputs.cache
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\bin\Debug\HotelManagement_DAL.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\bin\Debug\HotelManagement_DAL.pdb
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\bin\Debug\HotelManagement_Utilities.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\bin\Debug\EPPlus.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\bin\Debug\Newtonsoft.Json.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\bin\Debug\HotelManagement_Utilities.pdb
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\obj\Debug\HotelManagement_DAL.csproj.CopyComplete
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\obj\Debug\HotelManagement_DAL.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\obj\Debug\HotelManagement_DAL.pdb

@@ -1,0 +1,18 @@
+Error   - 11/16/2020 7:51:01 PM < Order Changed [ 20201109/ORD/00015-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\16-Nov-2020\20201109_ORD_00015-Mod\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\16-Nov-2020\20201109_ORD_00015-Mod\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/16/2020 9:28:50 PM < New Order [ 20201116/ORD/00016 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\16-Nov-2020\20201116_ORD_00016\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\16-Nov-2020\20201116_ORD_00016\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94

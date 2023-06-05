@@ -1,0 +1,64 @@
+-------------------START-------------10/19/2020 1:12:36 PM
+Source : Email_Templates.cs - EducatorEmails()
+Error : System.Exception: Error occured during usp_Educator_Request : Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL.cs:line 128
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 231
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 236
+   at HotelManagement_BAL.BAL_OrderMaster.usp_Get_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\HotelManagement_BAL\BAL_OrderMaster.cs:line 56
+   at Email_Templates.EducatorEmails(Int32 OrderMasterId, String EducatorRequestIds) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email_Templates.cs:line 181
+-------------------END-------------10/19/2020 1:12:36 PM
+-------------------START-------------10/19/2020 1:17:00 PM
+Source : Email_Templates.cs - EducatorEmails()
+Error : System.Exception: Error occured during usp_Educator_Request : Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL.cs:line 128
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 231
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 236
+   at HotelManagement_BAL.BAL_OrderMaster.usp_Get_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\HotelManagement_BAL\BAL_OrderMaster.cs:line 56
+   at Email_Templates.EducatorEmails(Int32 OrderMasterId, String EducatorRequestIds) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email_Templates.cs:line 181
+-------------------END-------------10/19/2020 1:17:00 PM
+-------------------START-------------10/19/2020 1:17:22 PM
+Source : Email_Templates.cs - EducatorEmails()
+Error : System.Exception: Error occured during usp_Educator_Request : Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL.cs:line 128
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 231
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 236
+   at HotelManagement_BAL.BAL_OrderMaster.usp_Get_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\HotelManagement_BAL\BAL_OrderMaster.cs:line 56
+   at Email_Templates.EducatorEmails(Int32 OrderMasterId, String EducatorRequestIds) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email_Templates.cs:line 181
+-------------------END-------------10/19/2020 1:17:22 PM
+-------------------START-------------10/19/2020 1:19:04 PM
+Source : Email_Templates.cs - EducatorEmails()
+Error : System.Exception: Error occured during usp_Educator_Request : Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Failed to convert parameter value from a String to a Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL.cs:line 128
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 231
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderMaster.usp_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\Sanofi_DAL\DAL_OrderMaster.cs:line 236
+   at HotelManagement_BAL.BAL_OrderMaster.usp_Get_Educator_Request_Email(Int32 OrderMasterId, String EducatorRequestIds) in D:\Office Work\SanofiCRMGit\HotelManagement_BAL\BAL_OrderMaster.cs:line 56
+   at Email_Templates.EducatorEmails(Int32 OrderMasterId, String EducatorRequestIds) in d:\Office Work\SanofiCRMGit\Sanofi\App_Code\Email_Templates.cs:line 181
+-------------------END-------------10/19/2020 1:19:04 PM

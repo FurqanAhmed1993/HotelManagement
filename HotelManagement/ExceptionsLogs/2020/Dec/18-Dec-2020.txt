@@ -1,0 +1,26 @@
+-------------------START-------------12/18/2020 9:34:14 PM
+Source : /Pages/Setup/InventoryIssuance.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Distributor Name'.
+-------------------END-------------12/18/2020 9:34:14 PM
+-------------------START-------------12/18/2020 9:34:14 PM
+Source : IBKAM.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'DistributorName'.
+-------------------END-------------12/18/2020 9:34:14 PM
+-------------------START-------------12/18/2020 9:39:39 PM
+Source : /Pages/Setup/OrderBooking.aspx - btnSaveOrder_Click
+Error : System.Exception: Error occured during Usp_OrderDetail_Update : Procedure or function Usp_OrderDetail_Update has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function Usp_OrderDetail_Update has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_OrderDetail.Usp_OrderDetail_Update(Int32 OrderDetailId, Int32 ProductDetailId, Int32 Quantity, Double CurrentDosage, Nullable`1 CurrentDosageUpdateDate, Double TradePrice_PerItem, Double TradePrice, Double RetailPrice_PerItem, Double RetailPrice, Nullable`1 DoctorId, Nullable`1 EducatorId, Nullable`1 FollowUpCallDate, String Instructions, Nullable`1 IBKAMProductDetailMappingID, Double DiscountPercentage, Double DiscountedPrice, Int32 UserId, String UserIP, Int32 DiscountQuantity, Nullable`1 ProductCAPTypeId, Boolean IsAllowStarterKit) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_OrderDetail.cs:line 91
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_OrderDetail.Usp_OrderDetail_Update(Int32 OrderDetailId, Int32 ProductDetailId, Int32 Quantity, Double CurrentDosage, Nullable`1 CurrentDosageUpdateDate, Double TradePrice_PerItem, Double TradePrice, Double RetailPrice_PerItem, Double RetailPrice, Nullable`1 DoctorId, Nullable`1 EducatorId, Nullable`1 FollowUpCallDate, String Instructions, Nullable`1 IBKAMProductDetailMappingID, Double DiscountPercentage, Double DiscountedPrice, Int32 UserId, String UserIP, Int32 DiscountQuantity, Nullable`1 ProductCAPTypeId, Boolean IsAllowStarterKit) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_OrderDetail.cs:line 96
+   at HotelManagement_BAL.BAL_OrderDetail.Usp_Update_OrderDetail(Int32 OrderDetailId, Int32 ProductDetailId, Int32 Quantity, Double CurrentDosage, Nullable`1 CurrentDosageUpdateDate, Double TradePrice_PerItem, Double TradePrice, Double RetailPrice_PerItem, Double RetailPrice, Nullable`1 DoctorId, Nullable`1 EducatorId, Nullable`1 FollowUpCallDate, String Instructions, Nullable`1 IBKAMProductDetailMappingID, Double DiscountPercentage, Double DiscountedPrice, Int32 UserId, String UserIP, Int32 DiscountQuantity, Nullable`1 ProductCAPTypeId, Boolean IsAllowStarterKit) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_OrderDetail.cs:line 21
+   at Pages_Order_OrderBooking.btn_Submit_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2769
+-------------------END-------------12/18/2020 9:39:39 PM
+-------------------START-------------12/18/2020 10:13:32 PM
+Source : IBKAM.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Distributor'.
+-------------------END-------------12/18/2020 10:13:32 PM
+-------------------START-------------12/18/2020 10:13:34 PM
+Source : /Pages/Setup/InventoryIssuance.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Distributor'.
+-------------------END-------------12/18/2020 10:13:34 PM

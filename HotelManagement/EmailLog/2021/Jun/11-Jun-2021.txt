@@ -1,0 +1,8 @@
+Error   - 6/11/2021 4:05:51 PM < Educator Request for Patient [63540 - Fahad Iqbal] : fahad.iqbal@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit_BranchA\Sanofi\App_Code\Email.cs:line 107
+Error   - 6/11/2021 4:21:25 PM < Educator Request for Patient [63539 - dfsfd sdfsdf] : fahad.iqbal@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in d:\Office Work\SanofiCRMGit_BranchA\Sanofi\App_Code\Email.cs:line 107

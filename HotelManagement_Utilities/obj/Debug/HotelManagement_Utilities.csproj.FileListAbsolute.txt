@@ -1,0 +1,6 @@
+C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\bin\Debug\HotelManagement_Utilities.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\bin\Debug\HotelManagement_Utilities.pdb
+C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\obj\Debug\HotelManagement_Utilities.csproj.CoreCompileInputs.cache
+C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\obj\Debug\HotelManagement_Utilities.csproj.CopyComplete
+C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\obj\Debug\HotelManagement_Utilities.dll
+C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\obj\Debug\HotelManagement_Utilities.pdb

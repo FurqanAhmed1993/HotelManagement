@@ -1,0 +1,69 @@
+Error   - 11/5/2020 2:42:59 PM < New Order [ 20201105/ORD/00003 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00003\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00003\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/5/2020 4:17:49 PM < New Order [ 20201105/ORD/00005 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00005\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00005\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/5/2020 4:18:37 PM < Order Changed [ 20201105/ORD/00005-Mod ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00005-Mod\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00005-Mod\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/5/2020 4:34:22 PM < Order Delivered [ 20201105/ORD/00005-Mod ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 111
+Error   - 11/5/2020 5:48:01 PM < New Order [ 20201105/ORD/00458 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00458\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00458\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/5/2020 6:05:37 PM < Order Delivered [ 20201105/ORD/00458 ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 111
+Error   - 11/5/2020 6:05:37 PM < Order Delivered [ 20201105/ORD/00458 ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 111
+Error   - 11/5/2020 6:07:21 PM < New Order [ 20201105/ORD/00459 ] : fahad.iqbal@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00459\APIDRA.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM\Sanofi\Attachments\OrderReceipt\2020\Nov\05-Nov-2020\20201105_ORD_00459\APIDRA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 94
+Error   - 11/5/2020 6:09:50 PM < Order Delivered [ 20201105/ORD/00459 ] : fahad.iqbal@sybrid.com >  : System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM\Sanofi\App_Code\Email.cs:line 111

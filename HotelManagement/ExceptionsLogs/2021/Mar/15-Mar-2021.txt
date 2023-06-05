@@ -1,0 +1,35 @@
+-------------------START-------------3/15/2021 6:30:44 PM
+Source : Pages/Order/EducatorRequest.aspx - BindRepeater()
+Error : Error occured during usp_Educator_Request : Procedure or function usp_Educator_Request has too many arguments specified.
+-------------------END-------------3/15/2021 6:30:44 PM
+-------------------START-------------3/15/2021 6:35:04 PM
+Source : Pages/Order/EducatorRequest.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'EducatorService'.
+-------------------END-------------3/15/2021 6:35:04 PM
+-------------------START-------------3/15/2021 6:35:37 PM
+Source : /Pages/Setup/OrderBooking.aspx - PageLoadForEdit
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'EducatorService'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.pages_order_orderbooking_aspx.__DataBind__control293(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx:line 898
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Pages_Order_OrderBooking.bindEducatorRequest() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3338
+   at Pages_Order_OrderBooking.BindRepeter_Patient(Nullable`1 CallerId, Int32 NewPatientId) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1049
+   at Pages_Order_OrderBooking.btnSearchCallerPhoneNo_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 557
+   at Pages_Order_OrderBooking.PageLoadForEdit() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 183
+-------------------END-------------3/15/2021 6:35:37 PM
+-------------------START-------------3/15/2021 6:35:59 PM
+Source : Pages/Order/EducatorRequest.aspx - BindRepeater()
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'EducatorService'.
+-------------------END-------------3/15/2021 6:35:59 PM

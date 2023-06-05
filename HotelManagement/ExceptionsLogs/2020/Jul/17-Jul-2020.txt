@@ -1,0 +1,56 @@
+-------------------START-------------7/17/2020 3:27:31 PM
+Source : /Pages/Complain_Inquiry/Complain_Inquiry.aspx - btn_AddProduct_Click
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Product'.
+-------------------END-------------7/17/2020 3:27:31 PM
+-------------------START-------------7/17/2020 6:39:05 PM
+Source : /Pages/Complain_Inquiry/Complain_Inquiry.aspx - LoadOrderDetail()
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Nature'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.pages_complain_inquiry_complain_inquiry_aspx.__DataBind__control89(Object sender, EventArgs e) in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx:line 285
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Pages_Complain_Inquiry_Complain_Inquiry.BindNature_Detail() in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx.cs:line 393
+   at Pages_Complain_Inquiry_Complain_Inquiry.LoadOrderDetail() in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx.cs:line 261
+-------------------END-------------7/17/2020 6:39:05 PM
+-------------------START-------------7/17/2020 6:39:16 PM
+Source : /Pages/Complain_Inquiry/Complain_Inquiry.aspx - LoadOrderDetail()
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Nature'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.pages_complain_inquiry_complain_inquiry_aspx.__DataBind__control89(Object sender, EventArgs e) in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx:line 285
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Pages_Complain_Inquiry_Complain_Inquiry.BindNature_Detail() in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx.cs:line 393
+   at Pages_Complain_Inquiry_Complain_Inquiry.LoadOrderDetail() in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx.cs:line 261
+-------------------END-------------7/17/2020 6:39:16 PM
+-------------------START-------------7/17/2020 6:47:50 PM
+Source : /Pages/Complain_Inquiry/Complain_Inquiry.aspx - LoadOrderDetail()
+Error : System.ArgumentException: Column 'ChannelID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Pages_Complain_Inquiry_Complain_Inquiry.LoadOrderDetail() in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx.cs:line 222
+-------------------END-------------7/17/2020 6:47:50 PM
+-------------------START-------------7/17/2020 6:49:04 PM
+Source : /Pages/Complain_Inquiry/Complain_Inquiry.aspx - LoadOrderDetail()
+Error : System.ArgumentException: Column 'ChannelID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Pages_Complain_Inquiry_Complain_Inquiry.LoadOrderDetail() in d:\Office Work\SanofiCRMGit\Sanofi\Pages\Complain_Inquiry\Complain_Inquiry.aspx.cs:line 222
+-------------------END-------------7/17/2020 6:49:04 PM
+-------------------START-------------7/17/2020 8:01:59 PM
+Source : /Pages/Complain_Inquiry/Complain_Inquiry.aspx - btn_AddProduct_Click
+Error : Input string was not in a correct format.Couldn't store <> in ProductDetailId Column.  Expected type is Int32.
+-------------------END-------------7/17/2020 8:01:59 PM

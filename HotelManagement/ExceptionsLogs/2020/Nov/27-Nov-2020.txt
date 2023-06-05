@@ -1,0 +1,22 @@
+-------------------START-------------11/27/2020 12:41:15 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: Column 'IsPrescriptionValidated' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1862
+-------------------END-------------11/27/2020 12:41:15 PM
+-------------------START-------------11/27/2020 12:44:03 PM
+Source : /Pages/Setup/OrderBooking.aspx - lb_ProductDetail_Click
+Error : System.ArgumentException: Column 'IsPrescriptionValidated' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Pages_Order_OrderBooking.lb_ProductDetail_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1913
+-------------------END-------------11/27/2020 12:44:03 PM
+-------------------START-------------11/27/2020 3:36:10 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/27/2020 3:36:10 PM
+-------------------START-------------11/27/2020 3:38:29 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/27/2020 3:38:29 PM

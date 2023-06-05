@@ -1,0 +1,1238 @@
+-------------------START-------------3/16/2021 12:02:10 PM
+Source : /Pages/Setup/User.aspx - btnExport_Click
+Error : Thread was being aborted.
+-------------------END-------------3/16/2021 12:02:10 PM
+-------------------START-------------3/16/2021 4:13:52 PM
+Source : Login.aspx - btnLogin_Click
+Error : Error occured during usp_UserLogin_Get_UserByLoginId : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+-------------------END-------------3/16/2021 4:13:52 PM
+-------------------START-------------3/16/2021 5:54:45 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_Repeat_Patient_Report : Procedure or function usp_RPT_Repeat_Patient_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_Repeat_Patient_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_Repeat_Patient_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 233
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_Repeat_Patient_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 238
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_Repeat_Patient_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 61
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 207
+-------------------END-------------3/16/2021 5:54:45 PM
+-------------------START-------------3/16/2021 5:55:46 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 5:55:46 PM
+-------------------START-------------3/16/2021 5:56:48 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 5:56:48 PM
+-------------------START-------------3/16/2021 5:57:50 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 5:57:50 PM
+-------------------START-------------3/16/2021 5:58:51 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 5:58:51 PM
+-------------------START-------------3/16/2021 5:59:52 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 5:59:52 PM
+-------------------START-------------3/16/2021 6:00:54 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:00:54 PM
+-------------------START-------------3/16/2021 6:01:56 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:01:56 PM
+-------------------START-------------3/16/2021 6:02:58 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:02:58 PM
+-------------------START-------------3/16/2021 6:03:59 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:03:59 PM
+-------------------START-------------3/16/2021 6:05:01 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:05:01 PM
+-------------------START-------------3/16/2021 6:06:03 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:06:03 PM
+-------------------START-------------3/16/2021 6:07:05 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:07:05 PM
+-------------------START-------------3/16/2021 6:08:07 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:08:07 PM
+-------------------START-------------3/16/2021 6:09:09 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:09:09 PM
+-------------------START-------------3/16/2021 6:10:10 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:10:10 PM
+-------------------START-------------3/16/2021 6:11:11 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:11:11 PM
+-------------------START-------------3/16/2021 6:12:13 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:12:13 PM
+-------------------START-------------3/16/2021 6:13:14 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:13:14 PM
+-------------------START-------------3/16/2021 6:14:15 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:14:15 PM
+-------------------START-------------3/16/2021 6:15:17 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:15:17 PM
+-------------------START-------------3/16/2021 6:16:19 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:16:19 PM
+-------------------START-------------3/16/2021 6:17:20 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:17:20 PM
+-------------------START-------------3/16/2021 6:18:22 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:18:22 PM
+-------------------START-------------3/16/2021 6:19:23 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:19:23 PM
+-------------------START-------------3/16/2021 6:20:26 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:20:26 PM
+-------------------START-------------3/16/2021 6:21:28 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:21:28 PM
+-------------------START-------------3/16/2021 6:22:30 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:22:30 PM
+-------------------START-------------3/16/2021 6:23:51 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:23:51 PM
+-------------------START-------------3/16/2021 6:24:53 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:24:53 PM
+-------------------START-------------3/16/2021 6:25:54 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:25:54 PM
+-------------------START-------------3/16/2021 6:26:56 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:26:56 PM
+-------------------START-------------3/16/2021 6:27:57 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:27:57 PM
+-------------------START-------------3/16/2021 6:28:58 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:28:58 PM
+-------------------START-------------3/16/2021 6:29:59 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:29:59 PM
+-------------------START-------------3/16/2021 6:31:00 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:31:00 PM
+-------------------START-------------3/16/2021 6:32:01 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:32:01 PM
+-------------------START-------------3/16/2021 6:33:02 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:33:02 PM
+-------------------START-------------3/16/2021 6:34:03 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:34:03 PM
+-------------------START-------------3/16/2021 6:35:04 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:35:04 PM
+-------------------START-------------3/16/2021 6:36:06 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:36:06 PM
+-------------------START-------------3/16/2021 6:37:07 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:37:07 PM
+-------------------START-------------3/16/2021 6:38:40 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:38:40 PM
+-------------------START-------------3/16/2021 6:39:42 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:39:42 PM
+-------------------START-------------3/16/2021 6:40:44 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:40:44 PM
+-------------------START-------------3/16/2021 6:41:46 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:41:46 PM
+-------------------START-------------3/16/2021 6:42:48 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:42:48 PM
+-------------------START-------------3/16/2021 6:43:49 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:43:49 PM
+-------------------START-------------3/16/2021 6:44:50 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:44:50 PM
+-------------------START-------------3/16/2021 6:45:51 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:45:51 PM
+-------------------START-------------3/16/2021 6:46:52 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:46:52 PM
+-------------------START-------------3/16/2021 6:47:53 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:47:53 PM
+-------------------START-------------3/16/2021 6:48:54 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:48:54 PM
+-------------------START-------------3/16/2021 6:49:55 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:49:55 PM
+-------------------START-------------3/16/2021 6:50:56 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:50:56 PM
+-------------------START-------------3/16/2021 6:51:57 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:51:57 PM
+-------------------START-------------3/16/2021 6:52:58 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:52:58 PM
+-------------------START-------------3/16/2021 6:53:59 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:53:59 PM
+-------------------START-------------3/16/2021 6:55:01 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:55:01 PM
+-------------------START-------------3/16/2021 6:56:02 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:56:02 PM
+-------------------START-------------3/16/2021 6:57:03 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:57:03 PM
+-------------------START-------------3/16/2021 6:58:05 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:58:05 PM
+-------------------START-------------3/16/2021 6:59:06 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 6:59:06 PM
+-------------------START-------------3/16/2021 7:00:07 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:00:07 PM
+-------------------START-------------3/16/2021 7:01:08 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:01:08 PM
+-------------------START-------------3/16/2021 7:02:09 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:02:09 PM
+-------------------START-------------3/16/2021 7:03:10 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:03:10 PM
+-------------------START-------------3/16/2021 7:04:12 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:04:12 PM
+-------------------START-------------3/16/2021 7:05:13 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:05:13 PM
+-------------------START-------------3/16/2021 7:06:15 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:06:15 PM
+-------------------START-------------3/16/2021 7:07:17 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:07:17 PM
+-------------------START-------------3/16/2021 7:08:18 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:08:18 PM
+-------------------START-------------3/16/2021 7:09:20 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:09:20 PM
+-------------------START-------------3/16/2021 7:10:21 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:10:21 PM
+-------------------START-------------3/16/2021 7:11:23 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:11:23 PM
+-------------------START-------------3/16/2021 7:12:27 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:12:27 PM
+-------------------START-------------3/16/2021 7:13:30 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:13:30 PM
+-------------------START-------------3/16/2021 7:14:33 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:14:33 PM
+-------------------START-------------3/16/2021 7:15:35 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:15:35 PM
+-------------------START-------------3/16/2021 7:16:37 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:16:37 PM
+-------------------START-------------3/16/2021 7:17:39 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:17:39 PM
+-------------------START-------------3/16/2021 7:18:40 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:18:40 PM
+-------------------START-------------3/16/2021 7:19:41 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:19:41 PM
+-------------------START-------------3/16/2021 7:20:43 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:20:43 PM
+-------------------START-------------3/16/2021 7:21:45 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:21:45 PM
+-------------------START-------------3/16/2021 7:22:48 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:22:48 PM
+-------------------START-------------3/16/2021 7:23:49 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:23:49 PM
+-------------------START-------------3/16/2021 7:24:53 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:24:53 PM
+-------------------START-------------3/16/2021 7:25:56 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:25:56 PM
+-------------------START-------------3/16/2021 7:26:58 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:26:58 PM
+-------------------START-------------3/16/2021 7:28:00 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:28:00 PM
+-------------------START-------------3/16/2021 7:29:02 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:29:02 PM
+-------------------START-------------3/16/2021 7:30:04 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:30:04 PM
+-------------------START-------------3/16/2021 7:31:06 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:31:06 PM
+-------------------START-------------3/16/2021 7:32:08 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:32:08 PM
+-------------------START-------------3/16/2021 7:33:09 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:33:09 PM
+-------------------START-------------3/16/2021 7:34:11 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:34:11 PM
+-------------------START-------------3/16/2021 7:35:13 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:35:13 PM
+-------------------START-------------3/16/2021 7:36:15 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:36:15 PM
+-------------------START-------------3/16/2021 7:37:17 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:37:17 PM
+-------------------START-------------3/16/2021 7:38:20 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:38:20 PM
+-------------------START-------------3/16/2021 7:39:21 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:39:21 PM
+-------------------START-------------3/16/2021 7:40:24 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:40:24 PM
+-------------------START-------------3/16/2021 7:41:27 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:41:27 PM
+-------------------START-------------3/16/2021 7:42:29 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:42:29 PM
+-------------------START-------------3/16/2021 7:43:30 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:43:30 PM
+-------------------START-------------3/16/2021 7:44:33 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:44:33 PM
+-------------------START-------------3/16/2021 7:45:35 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:45:35 PM
+-------------------START-------------3/16/2021 7:46:36 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:46:36 PM
+-------------------START-------------3/16/2021 7:47:42 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:47:42 PM
+-------------------START-------------3/16/2021 7:48:43 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:48:43 PM
+-------------------START-------------3/16/2021 7:49:46 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:49:46 PM
+-------------------START-------------3/16/2021 7:50:48 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:50:48 PM
+-------------------START-------------3/16/2021 7:51:51 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:51:51 PM
+-------------------START-------------3/16/2021 7:52:53 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:52:53 PM
+-------------------START-------------3/16/2021 7:53:55 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:53:55 PM
+-------------------START-------------3/16/2021 7:54:57 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:54:57 PM
+-------------------START-------------3/16/2021 7:56:00 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:56:00 PM
+-------------------START-------------3/16/2021 7:57:01 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:57:01 PM
+-------------------START-------------3/16/2021 7:58:03 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:58:03 PM
+-------------------START-------------3/16/2021 7:59:06 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 7:59:06 PM
+-------------------START-------------3/16/2021 8:00:08 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 8:00:08 PM
+-------------------START-------------3/16/2021 8:01:10 PM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_New_Patient_Registration_Report : Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_RPT_New_Patient_Registration_Report has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_New_Patient_Registration_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 31
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_New_Patient_Registration_(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId, Boolean IsConsolidated) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 16
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 202
+-------------------END-------------3/16/2021 8:01:10 PM

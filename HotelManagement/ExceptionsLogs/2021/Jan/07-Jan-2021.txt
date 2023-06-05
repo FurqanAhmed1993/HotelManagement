@@ -1,0 +1,20 @@
+-------------------START-------------1/7/2021 1:17:45 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------1/7/2021 1:17:45 PM
+-------------------START-------------1/7/2021 1:17:53 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------1/7/2021 1:17:53 PM
+-------------------START-------------1/7/2021 1:19:30 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------1/7/2021 1:19:30 PM
+-------------------START-------------1/7/2021 1:29:05 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------1/7/2021 1:29:05 PM

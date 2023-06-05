@@ -1,0 +1,9 @@
+-------------------START-------------5/31/2021 5:08:11 PM
+Source : Pages/Order/EducatorRequest.aspx - lblEditMode_Click
+Error : Column 'PatientAddressId' does not belong to table .
+-------------------END-------------5/31/2021 5:08:11 PM
+-------------------START-------------5/31/2021 6:58:40 PM
+Source : Pages/Order/EducatorRequest.aspx - btnAddRequest_Click
+Error : Error occured during usp_Educator_Insert : Cannot roll back Trans. No transaction or savepoint of that name was found.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 2, current count = 3.
+-------------------END-------------5/31/2021 6:58:40 PM

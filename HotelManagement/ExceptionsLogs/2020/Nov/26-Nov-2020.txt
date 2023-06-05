@@ -1,0 +1,67 @@
+-------------------START-------------11/26/2020 3:21:58 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : Index was outside the bounds of the array.
+-------------------END-------------11/26/2020 3:21:58 PM
+-------------------START-------------11/26/2020 3:22:35 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : Index was outside the bounds of the array.
+-------------------END-------------11/26/2020 3:22:35 PM
+-------------------START-------------11/26/2020 3:23:02 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : Index was outside the bounds of the array.
+-------------------END-------------11/26/2020 3:23:02 PM
+-------------------START-------------11/26/2020 3:23:32 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : Index was outside the bounds of the array.
+-------------------END-------------11/26/2020 3:23:32 PM
+-------------------START-------------11/26/2020 8:40:33 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------11/26/2020 8:40:33 PM
+-------------------START-------------11/26/2020 8:40:36 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------11/26/2020 8:40:36 PM
+-------------------START-------------11/26/2020 8:41:25 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : 'ddlPrescriptionValidation' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------11/26/2020 8:41:25 PM
+-------------------START-------------11/26/2020 9:01:48 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Patient Id'.
+-------------------END-------------11/26/2020 9:01:48 PM
+-------------------START-------------11/26/2020 9:02:55 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/26/2020 9:02:55 PM
+-------------------START-------------11/26/2020 9:02:57 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/26/2020 9:02:57 PM
+-------------------START-------------11/26/2020 9:02:58 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/26/2020 9:02:58 PM
+-------------------START-------------11/26/2020 9:03:51 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/26/2020 9:03:51 PM
+-------------------START-------------11/26/2020 9:05:31 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Object reference not set to an instance of an object.
+-------------------END-------------11/26/2020 9:05:31 PM
+-------------------START-------------11/26/2020 9:17:02 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : String was not recognized as a valid DateTime.
+-------------------END-------------11/26/2020 9:17:02 PM
+-------------------START-------------11/26/2020 9:17:32 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : String was not recognized as a valid DateTime.
+-------------------END-------------11/26/2020 9:17:32 PM
+-------------------START-------------11/26/2020 9:19:05 PM
+Source : Pages_Setup_CreateProduct.aspx - BindRepeater
+Error : String was not recognized as a valid DateTime.
+-------------------END-------------11/26/2020 9:19:05 PM

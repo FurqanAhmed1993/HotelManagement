@@ -1,0 +1,28 @@
+-------------------START-------------10/3/2022 2:37:27 PM
+Source : Login.aspx - btnLogin_Click
+Error : Column 'Name' does not belong to table .
+-------------------END-------------10/3/2022 2:37:27 PM
+-------------------START-------------10/3/2022 2:38:08 PM
+Source : Login.aspx - btnLogin_Click
+Error : Column 'Name' does not belong to table .
+-------------------END-------------10/3/2022 2:38:08 PM
+-------------------START-------------10/3/2022 6:16:10 PM
+Source : /Pages/Setup/User.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_UserRole_Get : Could not find stored procedure 'usp_UserRole_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_UserRole_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 31
+   at HotelManagement_BAL.BAL_Role.usp_GetUserRole(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_BAL\BAL_Role.cs:line 17
+   at Pages_Setup_User.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Setup\User.aspx.cs:line 60
+-------------------END-------------10/3/2022 6:16:10 PM
+-------------------START-------------10/3/2022 6:16:27 PM
+Source : /Pages/Setup/User.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_UserRole_Get : Could not find stored procedure 'usp_UserRole_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_UserRole_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 31
+   at HotelManagement_BAL.BAL_Role.usp_GetUserRole(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_BAL\BAL_Role.cs:line 17
+   at Pages_Setup_User.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Setup\User.aspx.cs:line 60
+-------------------END-------------10/3/2022 6:16:27 PM

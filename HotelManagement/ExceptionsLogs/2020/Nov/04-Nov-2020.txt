@@ -1,0 +1,47 @@
+-------------------START-------------11/4/2020 7:58:37 PM
+Source : /Pages/Setup/IBKAM.aspx - lbEdit_Click
+Error : 'ddlProductDetail' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------11/4/2020 7:58:37 PM
+-------------------START-------------11/4/2020 7:58:46 PM
+Source : /Pages/Setup/IBKAM.aspx - lbEdit_Click
+Error : 'ddlProductDetail' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------11/4/2020 7:58:46 PM
+-------------------START-------------11/4/2020 8:01:46 PM
+Source : /Pages/Setup/IBKAM.aspx - lbEdit_Click
+Error : 'ddlProductDetail' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+-------------------END-------------11/4/2020 8:01:46 PM
+-------------------START-------------11/4/2020 8:12:41 PM
+Source : /Pages/Setup/IBKAM.aspx - lbEdit_Click
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RowNum'.
+-------------------END-------------11/4/2020 8:12:41 PM
+-------------------START-------------11/4/2020 8:14:59 PM
+Source : /Pages/Setup/IBKAM.aspx - lbEdit_Click
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RowNum'.
+-------------------END-------------11/4/2020 8:14:59 PM
+-------------------START-------------11/4/2020 8:21:14 PM
+Source : /Pages/Setup/IBKAM.aspx - rpt_Product_ItemCommand
+Error : There is no row at position 0.
+-------------------END-------------11/4/2020 8:21:14 PM
+-------------------START-------------11/4/2020 8:23:03 PM
+Source : /Pages/Setup/IBKAM.aspx - rpt_Product_ItemCommand
+Error : There is no row at position 0.
+-------------------END-------------11/4/2020 8:23:03 PM
+-------------------START-------------11/4/2020 9:22:09 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_Insert_InventoryIssuance : @DoctorId is not a parameter for procedure usp_InventoryIssuance_Insert.
+-------------------END-------------11/4/2020 9:22:09 PM
+-------------------START-------------11/4/2020 9:22:53 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_Insert_InventoryIssuance : @DoctorId is not a parameter for procedure usp_InventoryIssuance_Insert.
+-------------------END-------------11/4/2020 9:22:53 PM
+-------------------START-------------11/4/2020 9:23:19 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_Insert_InventoryIssuance : @DoctorId is not a parameter for procedure usp_InventoryIssuance_Insert.
+-------------------END-------------11/4/2020 9:23:19 PM
+-------------------START-------------11/4/2020 9:23:54 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Error occured during usp_Insert_InventoryIssuance : @DoctorId is not a parameter for procedure usp_InventoryIssuance_Insert.
+-------------------END-------------11/4/2020 9:23:54 PM

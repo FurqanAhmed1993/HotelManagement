@@ -1,0 +1,10 @@
+-------------------START-------------12/14/2020 11:55:28 AM
+Source : /Pages/Dashboard.aspx - BindOrderStatusCount()
+Error : System.Exception: Error occured during usp_RPT_Repeat_Patient_Report : Transaction (Process ID 54) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction. ---> System.Data.SqlClient.SqlException: Transaction (Process ID 54) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Report.usp_RPT_Repeat_Patient_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 231
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Report.usp_RPT_Repeat_Patient_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_Report.cs:line 236
+   at HotelManagement_BAL.BAL_Report.usp_Report_RPT_Repeat_Patient_Report(DateTime StartDate, DateTime EndDate, Nullable`1 ProductDetailId) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_Report.cs:line 61
+   at Pages_Dashboard.BindCountControls() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Dashboard.aspx.cs:line 207
+-------------------END-------------12/14/2020 11:55:28 AM

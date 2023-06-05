@@ -1,0 +1,118 @@
+-------------------START-------------10/5/2022 1:10:22 PM
+Source : /Pages/Setup/User.aspx - lbEdit_Click
+Error : Column 'User Name' does not belong to table .
+-------------------END-------------10/5/2022 1:10:22 PM
+-------------------START-------------10/5/2022 1:11:52 PM
+Source : /Pages/Setup/User.aspx - lbEdit_Click
+Error : Column 'User Name' does not belong to table .
+-------------------END-------------10/5/2022 1:11:52 PM
+-------------------START-------------10/5/2022 1:23:15 PM
+Source : /Pages/Setup/User.aspx - lbEdit_Click
+Error : Error occured during Crud_UserHotelMapping : @HotelId is not a parameter for procedure sp_UserCrud.
+-------------------END-------------10/5/2022 1:23:15 PM
+-------------------START-------------10/5/2022 3:02:35 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:02:35 PM
+-------------------START-------------10/5/2022 3:02:35 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Could not find stored procedure 'usp_Setup_MenuItem_Get'.
+-------------------END-------------10/5/2022 3:02:35 PM
+-------------------START-------------10/5/2022 3:02:40 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Could not find stored procedure 'usp_Setup_MenuItem_Get'.
+-------------------END-------------10/5/2022 3:02:40 PM
+-------------------START-------------10/5/2022 3:03:24 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:03:24 PM
+-------------------START-------------10/5/2022 3:03:42 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Could not find stored procedure 'usp_Setup_MenuItem_Get'.
+-------------------END-------------10/5/2022 3:03:42 PM
+-------------------START-------------10/5/2022 3:05:01 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Invalid object name 'dbo.UserLogin'.
+-------------------END-------------10/5/2022 3:05:01 PM
+-------------------START-------------10/5/2022 3:06:29 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:06:29 PM
+-------------------START-------------10/5/2022 3:07:30 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:07:30 PM
+-------------------START-------------10/5/2022 3:08:06 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:08:06 PM
+-------------------START-------------10/5/2022 3:09:39 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:09:39 PM
+-------------------START-------------10/5/2022 3:39:46 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:39:46 PM
+-------------------START-------------10/5/2022 3:39:53 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:39:53 PM
+-------------------START-------------10/5/2022 3:40:39 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 3:40:39 PM
+-------------------START-------------10/5/2022 4:02:47 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/5/2022 4:02:47 PM

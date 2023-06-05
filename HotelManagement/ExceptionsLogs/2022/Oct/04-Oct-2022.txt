@@ -1,0 +1,150 @@
+-------------------START-------------10/4/2022 12:32:52 PM
+Source : /Pages/Setup/User.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_UserRole_Get : Could not find stored procedure 'usp_UserRole_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_UserRole_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 31
+   at HotelManagement_BAL.BAL_Role.usp_GetUserRole(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_BAL\BAL_Role.cs:line 17
+   at Pages_Setup_User.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Setup\User.aspx.cs:line 60
+-------------------END-------------10/4/2022 12:32:52 PM
+-------------------START-------------10/4/2022 12:33:37 PM
+Source : /Pages/Setup/User.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_UserRole_Get : Could not find stored procedure 'usp_UserRole_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_UserRole_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Role.usp_UserRole_Get(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Role.cs:line 31
+   at HotelManagement_BAL.BAL_Role.usp_GetUserRole(Nullable`1 RoleId, String RoletName, Nullable`1 IsActive, Int32 LoginRoleId) in C:\GitProjects\HotelManagementSystem\HotelManagement_BAL\BAL_Role.cs:line 17
+   at Pages_Setup_User.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Setup\User.aspx.cs:line 60
+-------------------END-------------10/4/2022 12:33:37 PM
+-------------------START-------------10/4/2022 12:33:43 PM
+Source : /Pages/Security/Role.aspx - BindRepeater
+Error : Error occured during usp_UserRole_Get : Could not find stored procedure 'usp_UserRole_Get'.
+-------------------END-------------10/4/2022 12:33:43 PM
+-------------------START-------------10/4/2022 12:33:43 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/4/2022 12:33:43 PM
+-------------------START-------------10/4/2022 12:33:43 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Could not find stored procedure 'usp_Setup_MenuItem_Get'.
+-------------------END-------------10/4/2022 12:33:43 PM
+-------------------START-------------10/4/2022 12:33:44 PM
+Source : /Pages/Security/AccessControl.aspx - BindDropDown()
+Error : Error occured during usp_UserRole_Get : Could not find stored procedure 'usp_UserRole_Get'.
+-------------------END-------------10/4/2022 12:33:44 PM
+-------------------START-------------10/4/2022 5:27:30 PM
+Source : /Pages/Setup/User.aspx - BindDropDown
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RoleName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at HotelManagement_Utilities.CommonObjects.BindDropDown(DropDownList ddlGeneral, Object dataSource, String dataTextField, String dataValueField, Boolean hasSelectItem, Boolean hasOtherItem) in C:\GitProjects\HotelManagementSystem\HotelManagement_Utilities\CommonObjects.cs:line 45
+   at Pages_Setup_User.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Setup\User.aspx.cs:line 60
+-------------------END-------------10/4/2022 5:27:30 PM
+-------------------START-------------10/4/2022 5:28:33 PM
+Source : /Pages/Security/Role.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RoleId'.
+-------------------END-------------10/4/2022 5:28:33 PM
+-------------------START-------------10/4/2022 5:30:18 PM
+Source : /Pages/Security/Role.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RoleId'.
+-------------------END-------------10/4/2022 5:30:18 PM
+-------------------START-------------10/4/2022 5:30:37 PM
+Source : /Pages/Security/Role.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RoleId'.
+-------------------END-------------10/4/2022 5:30:37 PM
+-------------------START-------------10/4/2022 5:33:47 PM
+Source : /Pages/Security/Role.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RowNum'.
+-------------------END-------------10/4/2022 5:33:47 PM
+-------------------START-------------10/4/2022 5:39:01 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:39:01 PM
+-------------------START-------------10/4/2022 5:39:26 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:39:26 PM
+-------------------START-------------10/4/2022 5:40:06 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:06 PM
+-------------------START-------------10/4/2022 5:40:07 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:07 PM
+-------------------START-------------10/4/2022 5:40:11 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:11 PM
+-------------------START-------------10/4/2022 5:40:12 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:12 PM
+-------------------START-------------10/4/2022 5:40:15 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:15 PM
+-------------------START-------------10/4/2022 5:40:15 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:15 PM
+-------------------START-------------10/4/2022 5:40:52 PM
+Source : /Pages/Security/Role.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------10/4/2022 5:40:52 PM
+-------------------START-------------10/4/2022 5:42:36 PM
+Source : /Pages/Setup/ProductDetail.aspx - BindDropDown
+Error : System.Exception: Error occured during usp_Feature_Get : Could not find stored procedure 'usp_Feature_Get'. ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'usp_Feature_Get'.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 26
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_Setup_Feature.usp_Feature_Get(Nullable`1 FeatureId, String Feature, Nullable`1 IsActive) in C:\GitProjects\HotelManagementSystem\HotelManagement_DAL\DAL_Setup_Feature.cs:line 31
+   at Pages_Security_Menu.BindDropDown() in c:\GitProjects\HotelManagementSystem\HotelManagement\Pages\Security\Menu.aspx.cs:line 65
+-------------------END-------------10/4/2022 5:42:36 PM
+-------------------START-------------10/4/2022 5:42:36 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Could not find stored procedure 'usp_Setup_MenuItem_Get'.
+-------------------END-------------10/4/2022 5:42:36 PM
+-------------------START-------------10/4/2022 5:42:46 PM
+Source : /Pages/Security/Menu.aspx.aspx - BindRepeater
+Error : Error occured during Usp_MenuItem_Get : Could not find stored procedure 'usp_Setup_MenuItem_Get'.
+-------------------END-------------10/4/2022 5:42:46 PM
+-------------------START-------------10/4/2022 6:12:44 PM
+Source : /Pages/Setup/User.aspx.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Role'.
+-------------------END-------------10/4/2022 6:12:44 PM
+-------------------START-------------10/4/2022 6:13:38 PM
+Source : /Pages/Setup/User.aspx.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'CreatedDate'.
+-------------------END-------------10/4/2022 6:13:38 PM
+-------------------START-------------10/4/2022 6:13:43 PM
+Source : /Pages/Setup/User.aspx.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ModifiedDate'.
+-------------------END-------------10/4/2022 6:13:43 PM
+-------------------START-------------10/4/2022 7:32:36 PM
+Source : Login.aspx - btnLogin_Click
+Error : Column 'Password' does not belong to table .
+-------------------END-------------10/4/2022 7:32:36 PM
+-------------------START-------------10/4/2022 7:46:43 PM
+Source : Login.aspx - btnLogin_Click
+Error : Column 'Password' does not belong to table .
+-------------------END-------------10/4/2022 7:46:43 PM
+-------------------START-------------10/4/2022 7:47:11 PM
+Source : Login.aspx - btnLogin_Click
+Error : Column 'RoleId' does not belong to table .
+-------------------END-------------10/4/2022 7:47:11 PM
+-------------------START-------------10/4/2022 7:47:56 PM
+Source : Login.aspx - btnLogin_Click
+Error : Column 'RoleId' does not belong to table .
+-------------------END-------------10/4/2022 7:47:56 PM

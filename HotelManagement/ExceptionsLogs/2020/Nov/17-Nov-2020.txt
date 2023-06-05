@@ -1,0 +1,46 @@
+-------------------START-------------11/17/2020 12:38:05 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'IBKAMName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at HotelManagement_Utilities.CommonObjects.BindDropDown(DropDownList ddlGeneral, Object dataSource, String dataTextField, String dataValueField, Boolean hasSelectItem, Boolean hasOtherItem) in C:\GitLabProject\SanofiCRM\Sanofi_Utilities\CommonObjects.cs:line 44
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 281
+-------------------END-------------11/17/2020 12:38:05 PM
+-------------------START-------------11/17/2020 12:38:24 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'IBKAMName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at HotelManagement_Utilities.CommonObjects.BindDropDown(DropDownList ddlGeneral, Object dataSource, String dataTextField, String dataValueField, Boolean hasSelectItem, Boolean hasOtherItem) in C:\GitLabProject\SanofiCRM\Sanofi_Utilities\CommonObjects.cs:line 44
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 281
+-------------------END-------------11/17/2020 12:38:24 PM
+-------------------START-------------11/17/2020 1:29:12 PM
+Source : /Pages/Setup/OrderBooking.aspx - PageLoadForEdit
+Error : System.Exception: Error occured during usp_PatientProgramMapping_insert : Error converting data type varchar to float. ---> System.Data.SqlClient.SqlException: Error converting data type varchar to float.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgramMapping_Get(Nullable`1 PatientId, Nullable`1 IBKAMProductDetailMappingID, Nullable`1 ProductDetailId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 312
+   --- End of inner exception stack trace ---
+   at Pages_Order_OrderBooking.BindPatientProgramRepeater(Nullable`1 PatientId, Nullable`1 IBKAMProductDetailMappingID) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3042
+   at Pages_Order_OrderBooking.BindRepeter_Patient(Nullable`1 CallerId, Int32 NewPatientId) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1059
+   at Pages_Order_OrderBooking.btnSearchCallerPhoneNo_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 514
+   at Pages_Order_OrderBooking.PageLoadForEdit() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 183
+-------------------END-------------11/17/2020 1:29:12 PM
+-------------------START-------------11/17/2020 1:29:44 PM
+Source : /Pages/Setup/OrderBooking.aspx - PageLoadForEdit
+Error : System.Exception: Error occured during usp_PatientProgramMapping_insert : Error converting data type varchar to float. ---> System.Data.SqlClient.SqlException: Error converting data type varchar to float.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_IBKAM.usp_PatientProgramMapping_Get(Nullable`1 PatientId, Nullable`1 IBKAMProductDetailMappingID, Nullable`1 ProductDetailId) in C:\GitLabProject\SanofiCRM\Sanofi_DAL\DAL_IBKAM.cs:line 312
+   --- End of inner exception stack trace ---
+   at Pages_Order_OrderBooking.BindPatientProgramRepeater(Nullable`1 PatientId, Nullable`1 IBKAMProductDetailMappingID) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3042
+   at Pages_Order_OrderBooking.BindRepeter_Patient(Nullable`1 CallerId, Int32 NewPatientId) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 1059
+   at Pages_Order_OrderBooking.btnSearchCallerPhoneNo_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 514
+   at Pages_Order_OrderBooking.PageLoadForEdit() in c:\GitLabProject\SanofiCRM\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 183
+-------------------END-------------11/17/2020 1:29:44 PM

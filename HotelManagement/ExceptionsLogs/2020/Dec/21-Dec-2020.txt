@@ -1,0 +1,22 @@
+-------------------START-------------12/21/2020 12:37:44 PM
+Source : /Pages/Setup/InventoryIssuance.aspx - BindRepeater
+Error : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Product'.
+-------------------END-------------12/21/2020 12:37:44 PM
+-------------------START-------------12/21/2020 12:48:46 PM
+Source : /Pages/Setup/OrderBooking.aspx - btnSaveOrder_Click
+Error : System.Exception: Error occured during usp_InventoryStore_Insert : Procedure or function usp_InventoryStore_Insert has too many arguments specified. ---> System.Data.SqlClient.SqlException: Procedure or function usp_InventoryStore_Insert has too many arguments specified.
+   at HotelManagement_DAL.DAL.GetData(SqlCommand pObjCommand) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL.cs:line 124
+   at HotelManagement_DAL.DAL_InventoryStore.usp_InventoryStore_Insert(Nullable`1 InventoryIssuanceId, Int32 ProductDetailId, Int32 IssueQuantity, Int32 InventoryType, Int32 OrderDetailId, Int32 UserId, Int32 DistributorId) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_InventoryStore.cs:line 31
+   --- End of inner exception stack trace ---
+   at HotelManagement_DAL.DAL_InventoryStore.usp_InventoryStore_Insert(Nullable`1 InventoryIssuanceId, Int32 ProductDetailId, Int32 IssueQuantity, Int32 InventoryType, Int32 OrderDetailId, Int32 UserId, Int32 DistributorId) in C:\GitLabProject\SanofiCRM_Branch-A\Sanofi_DAL\DAL_InventoryStore.cs:line 36
+   at HotelManagement_BAL.BAL_InventoryStore.usp_Insert_InventoryStore(Nullable`1 InventoryIssuanceId, Int32 ProductDetailId, Int32 IssueQuantity, Int32 InventoryType, Int32 OrderDetailId, Int32 UserId, Int32 DistributorId) in C:\GitLabProject\SanofiCRM_Branch-A\HotelManagement_BAL\BAL_InventoryStore.cs:line 19
+   at Pages_Order_OrderBooking.btn_Submit_Click(Object sender, EventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2785
+-------------------END-------------12/21/2020 12:48:46 PM
+-------------------START-------------12/21/2020 2:28:38 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------12/21/2020 2:28:38 PM
+-------------------START-------------12/21/2020 2:30:27 PM
+Source : /Pages/Setup/IBKAM.aspx - btnAdd_Click
+Error : Column 'HasError' does not belong to table .
+-------------------END-------------12/21/2020 2:30:27 PM

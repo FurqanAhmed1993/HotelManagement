@@ -1,0 +1,59 @@
+-------------------START-------------11/23/2020 7:26:20 PM
+Source : /Pages/Setup/CreateProduct.aspx - lbEdit_Click
+Error : Column 'SortOrder' does not belong to table .
+-------------------END-------------11/23/2020 7:26:20 PM
+-------------------START-------------11/23/2020 7:47:33 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Pages_Order_OrderBooking.dl_Product_ItemDataBound(Object sender, DataListItemEventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3095
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 246
+-------------------END-------------11/23/2020 7:47:33 PM
+-------------------START-------------11/23/2020 7:49:05 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Pages_Order_OrderBooking.dl_Product_ItemDataBound(Object sender, DataListItemEventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3095
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 246
+-------------------END-------------11/23/2020 7:49:05 PM
+-------------------START-------------11/23/2020 7:50:08 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Pages_Order_OrderBooking.dl_Product_ItemDataBound(Object sender, DataListItemEventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3095
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 246
+-------------------END-------------11/23/2020 7:50:08 PM
+-------------------START-------------11/23/2020 7:50:37 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Pages_Order_OrderBooking.dl_Product_ItemDataBound(Object sender, DataListItemEventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3095
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 246
+-------------------END-------------11/23/2020 7:50:37 PM
+-------------------START-------------11/23/2020 7:50:44 PM
+Source : /Pages/Setup/OrderBooking.aspx - BindDropDown
+Error : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Pages_Order_OrderBooking.dl_Product_ItemDataBound(Object sender, DataListItemEventArgs e) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 3095
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Pages_Order_OrderBooking.BindDropDown() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 246
+-------------------END-------------11/23/2020 7:50:44 PM

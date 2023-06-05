@@ -1,0 +1,18 @@
+-------------------START-------------3/10/2021 11:39:06 AM
+Source : Login.aspx - btnLogin_Click
+Error : Error occured during usp_UserLogin_Get_UserByLoginId : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+-------------------END-------------3/10/2021 11:39:06 AM
+-------------------START-------------3/10/2021 2:02:10 PM
+Source : /Pages/Setup/OrderBooking.aspx - SetPreviousData
+Error : System.ArgumentException: Column 'EducatorServiceId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Pages_Order_OrderBooking.SetPreviousData() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2262
+-------------------END-------------3/10/2021 2:02:10 PM
+-------------------START-------------3/10/2021 2:10:58 PM
+Source : /Pages/Setup/OrderBooking.aspx - SetPreviousData
+Error : System.ArgumentException: Column 'EducatorServiceId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Pages_Order_OrderBooking.SetPreviousData() in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Pages\Order\OrderBooking.aspx.cs:line 2262
+-------------------END-------------3/10/2021 2:10:58 PM

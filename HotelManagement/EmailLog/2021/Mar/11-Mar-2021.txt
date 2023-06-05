@@ -1,0 +1,44 @@
+Error   - 3/11/2021 11:48:19 AM < New Order [ 20210311/ORD/00006 ] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Attachments\OrderReceipt\2021\Mar\11-Mar-2021\20210311_ORD_00006\LANTUS.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Attachments\OrderReceipt\2021\Mar\11-Mar-2021\20210311_ORD_00006\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 95
+Error   - 3/11/2021 11:48:30 AM < Educator Request for Patient [63539 - dfsfd sdfsdf] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
+Error   - 3/11/2021 11:48:30 AM < Educator Request for Patient [63539 - dfsfd sdfsdf] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
+Error   - 3/11/2021 11:48:30 AM < Educator Request for Patient [63539 - dfsfd sdfsdf] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
+Error   - 3/11/2021 12:09:57 PM < Order Changed [ 20210311/ORD/00006-Mod ] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.IO.FileNotFoundException: Could not find file 'C:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Attachments\OrderReceipt\2021\Mar\11-Mar-2021\20210311_ORD_00006-Mod\LANTUS.pdf'.
+File name: 'C:\GitLabProject\SanofiCRM_Branch-A\Sanofi\Attachments\OrderReceipt\2021\Mar\11-Mar-2021\20210311_ORD_00006-Mod\LANTUS.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 95
+Error   - 3/11/2021 12:09:59 PM < Educator Request for Patient [63539 - dfsfd sdfsdf] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
+Error   - 3/11/2021 12:09:59 PM < Educator Request for Patient [63539 - dfsfd sdfsdf] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
+Error   - 3/11/2021 12:34:14 PM < Educator Request for Patient [6539 - MRS NAFEES BEGUM ] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
+Error   - 3/11/2021 12:34:14 PM < Educator Request for Patient [6539 - MRS NAFEES BEGUM ] : fahad.iqbal@sybrid.com;furqan.ahmed@sybrid.com >  : System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at Email.SendMail(String to, String subject, String msg, String cc, String Attachment, String var) in c:\GitLabProject\SanofiCRM_Branch-A\Sanofi\App_Code\Email.cs:line 107
